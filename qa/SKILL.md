@@ -1,6 +1,6 @@
 ---
-name: qa
-description: Interactive QA session where you describe bugs conversationally and the agent files durable GitHub issues using the project's domain language. Explores the codebase in the background for context. Use when reporting bugs, doing QA testing, or filing issues from observations.
+name: ddd-qa
+description: Interactive QA session where you describe bugs conversationally and the agent files durable GitHub issues using the project's domain language. Explores the codebase in the background for context. Use when reporting bugs, doing QA testing, or filing issues from observations. For full browser-driven test-and-fix with screenshots, use /qa (gstack) instead.
 user-invocable: true
 argument-hint: "[describe the issue, or just start talking]"
 ---
